@@ -1,0 +1,222 @@
+body {
+  /* background-image: linear-gradient(to bottom right, #F97794, #623AA2); */
+  /* background-color: #f97793bd; */
+  background-image: 
+                    linear-gradient(to right, rgba(146, 90, 236, 0.898), #61b6ee);
+  /* background-size: 5px 10px, 10px 5px; */
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+button {
+  padding: 7px 17px;
+  background-color: #f97793bd;
+  /* background-image: linear-gradient(to bottom right, #f97793bd, #623aa2ce); */
+  /* background-color: rgba(238, 226, 224, 0.356); */
+  /* background-color: rgb(61,151,227); */
+  color: rgba(0, 0, 0, 0.911);
+  border-radius: 15px;
+  /* box-shadow: ; */
+  font-weight: bold;
+}
+#pw_login {
+  margin-bottom: 1em;
+}
+#logout-but{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  
+}
+
+#user_info,#account_info,#stock_info{
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  background-color: #f97793bd;
+  /* background-image: linear-gradient(to bottom right, #f97793bd, #623aa2ce); */
+  color: rgba(0, 0, 0, 0.911);
+  border-radius: 15px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  right: 5%;
+  padding: 5% 0;
+  width: 40%;
+  font-size: 1.8em;
+}
+#saving,#credit,#investment{
+  width: 70%;
+  left: 15%;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  background-color: #f97793bd;
+  /* background-image: linear-gradient(to bottom right, #f97793bd, #623aa2ce); */
+  color: rgba(0, 0, 0, 0.911);
+  border-radius: 15px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  padding: 4% 5%;
+  font-size: 1.4em;
+  text-align: left;
+}
+#credit{
+  margin-top: 15%;
+}
+#investment{
+  margin-top: 30%;
+}
+#user_info{
+  margin-top: 0%;
+}
+#account_info{
+  margin-top: 15.5%;
+}
+#stock_info{
+  margin-top: 31%;
+}
+#user_frame{
+  padding: 5%;
+  font-size: 1.8em;
+  position: absolute;
+  left: 3%;
+  width: 35%;
+  background-color: #f97793bd;
+  /* background-image: linear-gradient(to bottom right, #f97793bd, #623aa2ce);; */
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: inset solid solid inset;
+  align-items: center;
+  text-align: center;
+  
+  height: 60%;
+  
+}
+.account-details{
+  position: relative;
+}
+.account-details span{
+  position: absolute;
+  right: 0%;
+}
+/* #creditcard{
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+} */
+label {
+  width: 6em;
+  float: left;
+}
+
+#root {
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login-page, #home-page, #account-page, #history-page, #stock-page,#transaction-page, #external-page, #internal-page {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
+  padding: 2em 10em;
+  /* margin-bottom: 10%; */
+  background-color: rgb(240, 218, 170);
+  border-radius: 70px;
+  border-color: rgba(240, 233, 223, 0.993);
+  /* border-color: rgba(255, 140, 0, 0.267); */
+  border-width: 5px;
+  border-style: dotted;
+  max-height: 80vh;
+  gap: 1em;
+}
+#home-page {
+  width: 50%;
+  height: 77%;
+  /* padding: 0 10em; */
+}
+#account-page {
+  height: 80%;
+  /* padding: 0 10em; */
+}
+/* #internal-page, #external-page {
+  height:60%
+} */
+#external-page label{
+  width: 9em;
+}
+#home-page a {
+  width: 100%;
+  word-wrap: break-word;
+
+}
+#register-button{
+    display: inline-block;
+    margin-left: 10px;
+}
+#login-page{
+    justify-content: center;
+}
+
+#home-page{
+  position: relative;
+}
+#logo {
+  mix-blend-mode: multiply;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f97793bd; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; 
+}
+
+#history-table td, #stock-table td {
+  padding: 0.6em;
+}
+table{
+	border-collapse:collapse;  
+}
+
+table tr:nth-child(2n){  
+    background: #c594392f;
+}
+
+table th {
+  padding: 0 0.8em;
+}
+
+#stock-table-div {
+  overflow: auto;
+  /* max-height: 40%; */
+}
+
+#loading-circle {
+  margin: auto;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #FF7A59;
+  width: 240px;
+  height: 240px;
+  margin: 1em;
+  animation: spinner 3s ease-out infinite;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  33.3% { transform: rotate(120deg); }
+  66.6% { transform: rotate(240deg); }
+  100% { transform: rotate(360deg); }
+}
