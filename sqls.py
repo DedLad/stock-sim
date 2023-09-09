@@ -507,7 +507,7 @@ def updatePosition(stock_name, no_shares, conditon):
 #createSavingAccount("edmund", "HKD", 0)
 #createInvestAccount("edmund", 0)
 #createCreditAccount("edmund", 10000, 10000)
-USER_NAME = "edmund"
+USER_NAME = "adhesh"
 #getAllInfo()
 #getSavingAccount()
 #getCreditAccount()
@@ -530,7 +530,7 @@ USER_NAME = "edmund"
 #createSavingAccount("edmund", "HKD", 0)
 #createInvestAccount("edmund", 0)
 #createCreditAccount("edmund", 10000, 10000)
-USER_NAME = "edmund"
+USER_NAME = "adhesh"
 #getAllInfo()
 #getSavingAccount()
 #getCreditAccount()
