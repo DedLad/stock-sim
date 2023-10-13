@@ -22,3 +22,5 @@ cd Client-
 
 and nmp start
 
+
+fles ignore vulnerabilites found in Node and python libraries(old versions)
