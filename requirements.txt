@@ -22,7 +22,7 @@ typing-extensions==3.10.0.2
 websockets==10.0
 wincertstore==0.2
 yarl==1.7.0
-opencv-contrib-python
+opencv-contrib-python    #might require opencv_contrib_python-4.4.0.46.dist-info and opencv_python-4.5.5.64.dist-info instead, issues with the way recognizer is addressed dk
 Pillow
 aiohttp_cors
 simplejson
