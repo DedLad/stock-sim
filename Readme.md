@@ -1,9 +1,9 @@
 # Stock Trading simulator with real time values
 
 ## Installation:
-1. get nodejs and mysql dont forget
+1. Install nodejs, python (3.9.10 preferably), mysql
 
-2. install requuired libraries with `pip install -r requirements.txt`
+2. install required libraries with `pip install -r requirements.txt`
 
 3. make a database h3566726 and use the h3566726.sql file as source and import `source path/h3566726.sql`
 
