@@ -1,26 +1,18 @@
-Welp project go brr
-use venv ez 
-yfinance api decent rate limit
+# Stock Trading simulator with real time values
 
-check requirements.txt file fles
+## Installation:
+1. get nodejs and mysql dont forget
 
+2. install requuired libraries with `pip install -r requirements.txt`
 
+3. make a database h3566726 and use the h3566726.sql file as source and import `source path/h3566726.sql`
 
-shouldve added gitignore :'')
+4. run `server.py`
 
+5. navigate to Client- subfolder
 
-Installation:
-get nodejs and mysql dont forget
+6. run client endpoint by running `npm start` in terminal
 
-install requuired libraries with pip install -r requirements.txt
+- - - -
 
-make a database h3566726 and use the h3566726.sql file as source and import ez
-
-run server.py
-
-cd Client-
-
-and nmp start
-
-
-fles ignore vulnerabilites found in Node and python libraries(old versions)
+_fles ignore vulnerabilites found in Node and python libraries(old versions)_
